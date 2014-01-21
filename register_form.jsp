@@ -34,7 +34,7 @@ h2{
   margin-top: 2cm;
  }
 
-a         { color: #003333; font: 30px Helvetica, Arial, sans-serif; }
+a         { color: #003333; text-decoration:none; font: 30px Helvetica, Arial, sans-serif; }
 a:hover   { color: #003333; font: 30px Helvetica, Arial, sans-serif; }
 a:visited { color: #003333; font: 30px Helvetica, Arial, sans-serif; }
     </style>
