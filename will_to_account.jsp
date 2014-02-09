@@ -1,10 +1,3 @@
-<%-- 
-    Document   : will_to_account
-    Created on : 3 Ιαν 2014, 6:50:31 μμ
-    Author     : mariza
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,37 +10,52 @@
 html, body { height: 100%; }
 
 body {
-  background-image:url('rsz_background.jpg');
-  background-color:#FF9999;
+  background-image:url('disney-wallpaper-border.jpg');
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: 100%;
-  text-align: center;
+  text-align: left;
+  margin-left: 5cm;
+  margin-top: 3cm;
 }
 h1{
+  font:italic bold 12px/30px Georgia,serif;
   font-size: 250%;
   margin-top: 2cm;
- }
- 
+  text-align: left;
+  margin-left: 4cm;
+ } 
 h2{
   font-size: 250%;
   margin-top: 2cm;
+  margin-left: 2cm;
  }
 
 h3, h4{
   font:italic bold 12px/30px Georgia,serif;
   font-size: 100%;
   margin-top: 0.5cm;
+  margin-left: 6cm;
  }
  
-a         { color: #003333; font: bold 12px/30px Georgia,sans-serif; }
-a:hover   { color: #003333; font: bold 12px/30px Georgia,sans-serif; }
-a:visited { color: #003333; font: bold 12px/30px Georgia,sans-serif; }
+ table {
+	margin-top: 1cm;
+    margin-left: 4cm;
+ }
+ 
+ button {
+	margin-top: 1cm;
+    margin-left: 6cm;
+ }
+ 
+a         { color: #003333; font: bold 12px/30px Georgia,sans-serif; margin-left: 6cm}
+a:hover   { color: #003333; font: bold 12px/30px Georgia,sans-serif; margin-left: 6cm}
+a:visited { color: #003333; font: bold 12px/30px Georgia,sans-serif; margin-left: 6cm}
 
     </style>
     
     <body>
         <form method="post" action="login.jsp">
-            <center>
+            
             <h1> Login Here : </h1>
             <table border="1" width="30%" cellpadding="3">
                 <tbody>
@@ -62,14 +70,14 @@ a:visited { color: #003333; font: bold 12px/30px Georgia,sans-serif; }
                 </tbody>
             </table>
             
-            <button type="button" onclick="alert("my_database.jpg")"> Login </button>
+            <button type="button" onclick="alert("MyDatabase.java")"> Login </button>
             <input type="reset" value="Reset" />
             <br/>
             
             <h2> You have not an account yet? </h2>
             <h3> Sign Up Here : </h3><a href="register_form.jsp">Go To Our Register Form</a>
             <h4> It's free and always will be </h4>
-            </center>
+            
         </form>
     </body>
 </html>
