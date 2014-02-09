@@ -1,10 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 19 Ιαν 2014, 8:14:11 μμ
-    Author     : user
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,11 +10,12 @@
 html, body { height: 100%; }
 
 body {
-  background-image:url('rsz_background.jpg');
-  background-color:#FF9999;
+  background-image:url('disney-wallpaper-border.jpg');
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: 100%;
-  text-align: center;
+  text-align: left;
+  margin-left: 5cm;
+  margin-top: 3cm;
 }
 h1{
   font:italic bold 12px/30px Georgia,serif;
@@ -46,19 +40,20 @@ h4, h5{
   margin-top: 2cm;
  }
  
-a         { color: #003333; font: bold 20px/30px Georgia,sans-serif; }
-a:hover   { color: #003333; font: bold 20px/30px Georgia,sans-serif; }
-a:visited { color: #003333; font: bold 20px/30px Georgia,sans-serif; }
+a         { color: #009999; font: bold 20px/30px Georgia,sans-serif; }
+a:hover   { color: #009999; font: bold 20px/30px Georgia,sans-serif; }
+a:visited { color: #009999; font: bold 20px/30px Georgia,sans-serif; }
 
 #box1
 {
 width:250px;
 height:250px;
 padding:30px;
-background-color:#FF9999;
+background-color:#A00000;
 background-clip:content-box;
 margin-top: 2cm;
-margin-left: 8cm;
+margin-left: 0cm;
+text-align: center;
 }
 
 #box2
@@ -66,10 +61,11 @@ margin-left: 8cm;
 width:250px;
 height:250px;
 padding:30px;
-background-color:#FF9999;
+background-color:#A00000;
 background-clip:content-box;
 margin-top: -8.2cm;
-margin-left: 18cm;
+margin-left: 8cm;
+text-align: center;
 }
     </style>
     
@@ -83,7 +79,7 @@ margin-left: 18cm;
             <section>
             <h4 style="background-color:#009999;">BMI</h4>
             <p style="color:#009999;margin-left:20px;text-align: left;">The body mass index (BMI), or Quetelet index, is a measure for human body shape based on an individual's mass and height.</p>
-            <a href="Bmi.java">Calculate yours free</a>
+            <a href="input_bmi.jsp">Calculate yours free</a>
             </section>
     </div>
     
