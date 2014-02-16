@@ -83,7 +83,7 @@
             <section>
             <h4 style="background-color:#009999;">BMI</h4>
             <p style="color:#009999;margin-left:20px;text-align: left;">The body mass index (BMI), or Quetelet index, is a measure for human body shape based on an individual's mass and height.</p>
-            <a href="input_bmi.jsp">Calculate yours free</a>
+            <a href="input_bmi.jsp">Calculate</a>
             </section>
     </div>
     
