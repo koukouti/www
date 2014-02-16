@@ -94,7 +94,7 @@
                 <br/> Blood sugar levels even
                 <br/>Energy source</p>
                 <br/>
-                <a href="snack_tip.jsp">Take a FREE tip!</a>
+                <a href="snack_tip.jsp">Take a tip!</a>
             </section>
     </div>
         
